@@ -1,12 +1,67 @@
-# React + Vite
+# Bucador-CEP
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bucador-CEP é uma aplicação para busca de informações de endereços a partir de CEPs brasileiros.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Consulta de endereços por CEP
+- Retorno de informações detalhadas (rua, bairro, cidade, estado)
+- Interface simples e intuitiva
 
-## Expanding the ESLint configuration
+## Instalação
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+git clone https://github.com/seu-usuario/bucador-CEP.git
+cd bucador-CEP
+# Siga as instruções específicas do projeto para instalação de dependências
+```
+
+## Uso
+
+```bash
+# Exemplo de uso
+python main.py 01001-000
+```
+
+## Contribuição
+
+Contribuições são bem-vindas! Abra uma issue ou envie um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a licença MIT.
+
+---
+
+# Bucador-CEP
+
+Bucador-CEP is an application for searching address information using Brazilian ZIP codes (CEPs).
+
+## Features
+
+- Search for addresses by ZIP code
+- Returns detailed information (street, neighborhood, city, state)
+- Simple and intuitive interface
+
+## Installation
+
+```bash
+git clone https://github.com/seu-usuario/bucador-CEP.git
+cd bucador-CEP
+# Follow the project-specific instructions to install dependencies
+```
+
+## Usage
+
+```bash
+# Usage example
+python main.py 01001-000
+```
+
+## Contributing
+
+Contributions are welcome! Open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT license.
